@@ -1,0 +1,44 @@
+body #sla{
+ background: #0E0A14;
+ width: 100%;
+ height: 637px;
+ display: flex;
+}
+.content h2 {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    top: 360px;
+    left: 500px;
+    color: white;
+    height: 250px;
+    font-style: normal;
+}
+
+.content .imagem {
+    position: absolute;
+    width: 180px;
+    left: 600px;
+    top: 170px;
+}
+
+.content .backToHome {
+    position: absolute;
+    width: 280px;
+    background-color: darkolivegreen;
+    top: 420px;
+    left: 525px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    color: rgb(204, 187, 187);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
